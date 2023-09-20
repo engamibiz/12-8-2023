@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container flex">
+            <div class="logo">ReVeal</div>
+            <div class="menu">
+                <a href="#">ABOUT
+                </a>
+                <a href="#">SERVICE
+                </a>
+                <a href="#">EVENTS
+                </a>
+                <a href="#">TEAM</a>
+                <a href="#">CONTACT</a>
+            
+            </div>
+            <!-- menu -->
+        </div>
+        <!-- container -->
+    </header>
+<!-- header -->
+
+    <section class="hero">
+            <div class="overlay"></div>
+            <div class="content">
+                <h2>Creative Coders</h2>
+                <h1>WELCOME<br>
+                    TO REVEAL</h1>
+                    <div class="line"></div>
+                    <a href="#" class="white_outline">Learn more</a>
+                    <i class="fa-solid fa-chevron-down"></i>
+            </div>
+    </section>
+    <!-- hero -->
+
+    <section class="about"> 
+        <h5>Who we are</h5>
+        <h2>STORY ABOUT US</h2>
+        <div class="container">
+            <p>We are creative coders, lorem consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat incididunt ut labore et dolore aliquip ex ea commodo consequat incididunt.
+            </p>    
+            <div class="flex">
+                <div>
+                    <div class="content">
+                        <div class="img_overlay">
+                            <i class="fa-solid fa-user-group"></i>
+                            <h4>support team</h4>
+                        </div>
+                        <img src="img/showcase.jpg" 
+                        alt="">
+                    </div>
+                </div>
+                <div>
+                    <div class="content">
+                        <div class="img_overlay">
+                            <i class="fa-solid fa-user-group"></i>
+                            <h4>support team</h4>
+                        </div>
+                        <img src="img/showcase.jpg" 
+                        alt="">
+                    </div>
+                </div>
+                <div>
+                    <div class="content">
+                        <div class="img_overlay">
+                            <i class="fa-solid fa-user-group"></i>
+                            <h4>support team</h4>
+                        </div>
+                        <img src="img/showcase.jpg" 
+                        alt="">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- container -->
+
+    </section>
+        <!-- about -->
+
+        <div class="chaticon" id="chaticon" onclick="showchat()">
+            chat
+        </div>
+
+        <div class="chabox" id="chabox"></div>
+
+<script>
+    let chabox = document.getElementById('chabox')
+    function showchat(){
+        // document.getElementById('chabox').style.display='block'
+        chabox.classList.toggle('show')
+    }
+</script>
+       
+</body>
+</html>
+
+
+
+

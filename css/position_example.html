@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card{
+            width: 300px;
+            height: 400px;
+            box-shadow: 0 0 3px gray;
+            margin: 100px auto;
+            position: relative;
+            overflow: hidden;
+            transition:font-size 0.5s ;
+
+        }
+        .circle{
+            width: 50px;
+            height: 50px;
+            box-shadow: 0 0 3px gray;
+            background-color: white;
+            border-radius: 50%;
+            position: absolute;
+            top:20px;
+            right: -100px;
+            transition:right 0.5s ;
+        }
+        .card:hover .circle{
+            right: 240px;
+        }
+        .card:hover {
+            font-size: 20px;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <div class="card">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam fuga, eveniet nostrum iure numquam cum, voluptate autem amet quibusdam cumque et voluptatibus, quo voluptatem deserunt repudiandae. Qui eos deserunt laborum?
+        <div class="circle"></div>
+    </div>
+</body>
+</html>
+
+

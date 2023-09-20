@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="main" onclick="hideme()">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero ratione, tempora explicabo quos est ipsa
+        nam eaque nulla numquam rem culpa similique maxime adipisci placeat? Perferendis molestiae fuga ea maxime!</p>
+    <button id="btn" onclick="hideme()">
+        Hide Paragraph
+    </button>
+
+    <script>
+        function hideme(){
+            document.getElementById('main').style.display= 'none'
+            document.getElementById('btn').style.color= 'red'
+        }
+
+        let x = 'ahmed' // name
+        let y = 4  // number 
+        let main = document.getElementById('main')  // selector
+    </script>
+</body>
+
+</html>
